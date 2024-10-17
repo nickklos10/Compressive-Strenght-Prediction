@@ -51,3 +51,18 @@ The dataset contains information on the composition of concrete mixes and their 
 git clone https://github.com/yourusername/Concrete-Strength-Prediction.git
 cd Concrete-Strength-Prediction
 ```
+
+## Usage
+
+### Running the Jupyter Notebook
+
+1. Navigate to the notebooks directory:
+```bash
+cd notebooks
+```
+2. Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+3. Open Concrete_Strength_Model.ipynb and run the cells sequentially to execute the project.
