@@ -71,43 +71,43 @@ jupyter notebook
 ## Methodology
 
 1. Data Preparation
-- Import Libraries: Essential libraries such as pandas, numpy, matplotlib, tensorflow.keras, and scikit-learn are imported for data manipulation, visualization, model building, and evaluation.
+- `Import Libraries`: Essential libraries such as pandas, numpy, matplotlib, tensorflow.keras, and scikit-learn are imported for data manipulation, visualization, model building, and evaluation.
 
-- Load Data: The dataset is loaded from the provided URL using pandas.read_csv().
+- `Load Data`: The dataset is loaded from the provided URL using pandas.read_csv().
 
-- Data Inspection: The first few rows and statistical summaries are examined to understand the data distribution and check for anomalies.
+- `Data Inspection`: The first few rows and statistical summaries are examined to understand the data distribution and check for anomalies.
 
 2. Exploratory Data Analysis
-- Missing Values: Checked for any missing or null values to ensure data quality.
+- `Missing Values`: Checked for any missing or null values to ensure data quality.
 
-- Statistical Summary: Analyzed mean, standard deviation, and other statistical metrics to understand feature distributions.
+- `Statistical Summary`: Analyzed mean, standard deviation, and other statistical metrics to understand feature distributions.
 
-- Visualization: Plotted histograms, scatter plots, and correlation matrices to visualize relationships between features and the target variable.
+- `Visualization`: Plotted histograms, scatter plots, and correlation matrices to visualize relationships between features and the target variable.
 
 3. Data Preprocessing
-- Feature Selection: Selected relevant predictor variables and the target variable (Strength).
+- `Feature Selection`: Selected relevant predictor variables and the target variable (Strength).
 
-- Normalization: Applied StandardScaler to normalize the feature data, ensuring that all features contribute equally to the model training.
+- `Normalization`: Applied StandardScaler to normalize the feature data, ensuring that all features contribute equally to the model training.
 
-- Train-Test Split: Split the data into training and testing sets (70% training, 30% testing) to evaluate model performance on unseen data.
+- `Train-Test Split`: Split the data into training and testing sets (70% training, 30% testing) to evaluate model performance on unseen data.
 
 4. Building the Regression Model
-- Model Architecture: Constructed a Sequential neural network with:
+- `Model Architecture`: Constructed a Sequential neural network with:
 
-    - Input Layer: Corresponding to the number of predictors.
-    - Hidden Layers: Two hidden layers with 50 neurons each and ReLU activation.
-    - Output Layer: Single neuron with linear activation for regression output.
+    - `Input Layer`: Corresponding to the number of predictors.
+    - `Hidden Layers`: Two hidden layers with 50 neurons each and ReLU activation.
+    - `Output Layer`: Single neuron with linear activation for regression output.
       
-- Compilation: Used the 'adam' optimizer and mean_squared_error as the loss function.
+- `Compilation`: Used the 'adam' optimizer and mean_squared_error as the loss function.
 
 5. Training the Model
-- Model Training: Trained the model for 100 epochs with a batch size of 10, using 20% of the training data for validation.
+- `Model Training`: Trained the model for 100 epochs with a batch size of 10, using 20% of the training data for validation.
 
-- Training Visualization: Plotted training and validation loss over epochs to monitor learning progress and detect overfitting or underfitting.
+- `Training Visualization`: Plotted training and validation loss over epochs to monitor learning progress and detect overfitting or underfitting.
 
 6. Evaluating the Model
-- Predictions: Generated predictions on the test set.
+- `Predictions`: Generated predictions on the test set.
 
-- Performance Metrics: Calculated Mean Squared Error (MSE) and Root Mean Squared Error (RMSE) to quantify model accuracy.
+- `Performance Metrics`: Calculated Mean Squared Error (MSE) and Root Mean Squared Error (RMSE) to quantify model accuracy.
 
-- Result Interpretation: Analyzed whether the obtained MSE is acceptable based on the dataset's context and potential application requirements.
+- `Result Interpretation`: Analyzed whether the obtained MSE is acceptable based on the dataset's context and potential application requirements.
