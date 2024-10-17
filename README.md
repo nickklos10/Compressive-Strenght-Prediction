@@ -1,6 +1,5 @@
 # Concrete Compressive Strength Prediction using Keras
 
-![Concrete Strength](https://example.com/concrete_strength_image.png) *(Replace with an appropriate image)*
 
 ## Project Overview
 
