@@ -111,3 +111,19 @@ jupyter notebook
 - `Performance Metrics`: Calculated Mean Squared Error (MSE) and Root Mean Squared Error (RMSE) to quantify model accuracy.
 
 - `Result Interpretation`: Analyzed whether the obtained MSE is acceptable based on the dataset's context and potential application requirements.
+
+---
+
+## Results
+After training the regression model, the following performance metrics were obtained:
+
+- `Mean Squared Error (MSE)` on Test Data: 36.436
+- `Root Mean Squared Error (RMSE)`: ≈6.04 MPa
+
+
+## Interpretation
+- `MSE of 36.436`: Indicates the average squared difference between the predicted and actual compressive strength values.
+
+- `RMSE of 6.04 MPa`: Provides an error metric in the same units as the target variable, suggesting that on average, predictions deviate by approximately 6.04 MPa from actual values.
+
+- `Visual Analysis`: The loss curves suggest the model is performing well without significant overfitting or underfitting. The scatter plot of predictions vs. actual values shows a reasonable alignment, indicating good predictive capability.
