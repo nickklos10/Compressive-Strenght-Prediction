@@ -48,8 +48,8 @@ The dataset contains information on the composition of concrete mixes and their 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Concrete-Strength-Prediction.git
-cd Concrete-Strength-Prediction
+git clone https://github.com/yourusername/Compressive-Strength-Prediction.git
+cd Compressive-Strength-Prediction
 ```
 
 ## Usage
